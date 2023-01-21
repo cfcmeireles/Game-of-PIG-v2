@@ -1,0 +1,83 @@
+* {
+  font-family: "Indie Flower", cursive;
+}
+
+body {
+  background-color: #e1e5ee;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: #767b91;
+}
+
+h1 ~ p {
+  text-align: center;
+  line-height: 2.5;
+}
+
+.note {
+  color: #767b91;
+  margin-top: -20px;
+  font-size: 15px;
+}
+
+#gamecontrol {
+  margin-top: 70px;
+  text-align: center;
+}
+
+#startgame {
+  display: none;
+}
+
+h2 {
+  color: #767b91;
+}
+
+form {
+  margin-bottom: 22px;
+}
+
+@media only screen and (max-width: 930px) {
+  #gamecontrol {
+    margin-top: 22px;
+    text-align: center;
+  }
+
+  form input {
+    display: block;
+    margin: auto;
+  }
+}
+
+#game,
+#actions,
+#score {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#score {
+  margin: 20px auto;
+  place-items: center;
+  background-color: #c7ccdb;
+  font-size: 25px;
+}
+
+button {
+  background-color: #2a324b;
+  border-radius: 5px;
+  color: #f7c59f;
+  cursor: pointer;
+  padding: 10px;
+  font-family: "Indie Flower", cursive;
+}
+
+button:hover {
+  background-color: rgba(42, 50, 75, 50%);
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Game of PIG</title>
+  </head>
+  <body>
+    <h1>Game of PIG</h1>
+    <p>
+      There are three players. The player whose turn it is rolls the dice. The total of the roll is added to the current player's score, unless either dice comes up as a “one”. If this happens, this player gets no points for that turn and it is the next player’s turn. After each roll, the current
+      player can either roll again, (assuming a “one” was not rolled) or if the current player feels that luck is running thin, they can pass to the next player. The first player to get to the agreed number of points or higher wins.
+    </p>
+    <p>Oh, and if you roll two “ones” (snake eyes), your current score gets zeroed out. So don’t do that.</p>
+    <div id="gamecontrol">
+      <h2>Start a Game</h2>
+      <div id="playerNum-form">
+        <h2>How many players are participating?</h2>
+        <form><input type="number" id="playerNum" /></form>
+        <button id="playersubmit">Submit</button>
+      </div>
+      <div id="playerform">
+      </div>
+      <div id="points-form">
+    </div>
+      <button id="startgame">Start the Game</button>
+    </div>
+    <div id="game"></div>
+    <div id="actions"></div>
+    <div id="score"></div>
+  </body>
+</html>
